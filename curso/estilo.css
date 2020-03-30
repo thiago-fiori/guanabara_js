@@ -3,3 +3,15 @@ body {
   color: white;
   font: normal 20pt Arial;
 }
+
+.conteudo {
+  border: 2px solid blue;
+  width: 720px;
+  margin: 0 auto;
+}
+
+.interacao {
+  padding: 10px;
+  text-align: center;
+  border: 4px solid green;
+}
