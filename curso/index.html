@@ -7,14 +7,14 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script language="javascript" src="script.js"></script>
   </head>
-  <body onload="welcome()">
+  <body onload="welcome()" class="corpo">
     <div class="conteudo">
       <div class="interacao">
         <h1 id="titulo">Hello World!</h1>
         <p>Parágrafo topzera</p>
-        <button onclick="mudaCor('blue')" type="button" name="button">Azul</button>
-        <button onclick="mudaCor('red')" type="button" name="button">Vermelho</button>
-        <button onclick="limpa()" type="button" name="button">Limpa</button>
+        <button class="btn btn-primary" onclick="mudaCor('blue')" type="button" name="button">Azul</button>
+        <button class="btn btn-danger" onclick="mudaCor('red')" type="button" name="button">Vermelho</button>
+        <button class="btn btn-default" onclick="limpa()" type="button" name="button">Limpa</button>
       </div>
     </div>
   </body>

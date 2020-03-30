@@ -1,7 +1,7 @@
 function welcome(){
   alert("Bem vindo ao site do Thiaguin do TI");
   confirm("este site pode te deixar maluco");
-  prompt("Como você se vê em 10 anos ?")
+  prompt("Você sabe qual jogo é este ?")
 }
 
 function mudaCor(cor){
