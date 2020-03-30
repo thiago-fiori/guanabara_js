@@ -8,3 +8,8 @@ function mudaCor(cor){
   var elemento = document.getElementById("titulo");
   elemento.style.color = cor;
 }
+
+function limpa(){
+  var elemento = document.getElementById("titulo");
+  elemento.style = "clear";
+}
