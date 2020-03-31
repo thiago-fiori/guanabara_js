@@ -5,7 +5,7 @@ function welcome(){
   alert("Bem vindo,  " + nome);
   var born = Number(prompt("em qual ano você nasceu ?"));
   var idade = 2020 - born;
-  alert("Você tem " + idade + " anos");
+  alert(`Você tem ${idade} anos`);
 }
 
 function mudaCor(cor){
