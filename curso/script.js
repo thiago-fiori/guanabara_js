@@ -11,9 +11,11 @@ function welcome(){
 function mudaCor(cor){
   var elemento = document.getElementById("titulo");
   elemento.style.color = cor;
+  document.getElementById("paragrafo").innerHTML = cor;
 }
 
 function limpa(){
   var elemento = document.getElementById("titulo");
   elemento.style = "clear";
+  document.getElementById("paragrafo").innerHTML = "Estilo limpo";
 }
