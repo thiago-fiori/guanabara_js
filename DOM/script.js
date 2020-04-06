@@ -6,5 +6,5 @@ function clica(){
   var p3 = document.getElementById('verde');
   p3.style.color = 'green';
   var d  = document.querySelector('p#verde2');
-  d.style.color = 'green';
+  d.style.color = 'lightgreen';
 }
