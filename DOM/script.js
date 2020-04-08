@@ -1,3 +1,10 @@
+function inicio(){
+  var a = document.getElementById('area');
+  a.addEventListener('click', evento);
+  a.addEventListener('mouseenter', entrou);
+  a.addEventListener('mouseout', saiu);
+}
+
 function clica(){
   var p1 = document.getElementById('azul');
   p1.style.color = 'blue';
@@ -7,4 +14,22 @@ function clica(){
   p3.style.color = 'green';
   var d  = document.querySelector('p#verde2');
   d.style.color = 'lightgreen';
+}
+
+function evento(){
+  var elemento = document.getElementById('area');
+  elemento.innerText = "você clicou";
+  elemento.style.background = 'transparent';
+  elemento.style.border = '1px solid lightblue';
+}
+
+function entrou(){
+  var elemento = document.getElementById('area');
+  elemento.innerText = "entrou";
+}
+
+function saiu(){
+  var elemento = document.getElementById('area');
+  elemento.innerText = "saiu";
+  elemento.style.background = 'mediumspringgreen';
 }
