@@ -1,5 +1,13 @@
 body {
   color: white;
-  background: cadetblue;
+  background: blueviolet;
   font: normal 18pt Arial;
+}
+
+#area{
+  background: mediumspringgreen;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
 }
