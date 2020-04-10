@@ -33,3 +33,16 @@ function saiu(){
   elemento.innerText = "saiu";
   elemento.style.background = 'mediumspringgreen';
 }
+
+function multar(){
+  var elemento  = document.getElementById('velocidade'); //recebendo a velocidade
+  var aviso = document.getElementById('aviso'); //selecionando o texto de multa
+  var speed = Number(elemento.value);//convertendo o input para int
+  if (speed > 60) {
+    aviso.innerText = "Multado";
+    aviso.style.color = 'red';
+  } else {
+    aviso.innerText = "Sem multa";
+    aviso.style.color = 'lightgreen';
+  }
+}

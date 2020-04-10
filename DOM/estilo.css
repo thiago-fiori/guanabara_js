@@ -11,3 +11,7 @@ body {
   line-height: 200px;
   text-align: center;
 }
+
+#velocidade {
+  width: 50px;
+}
