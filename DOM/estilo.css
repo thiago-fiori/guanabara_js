@@ -3,13 +3,18 @@ body {
   font: normal 18pt Arial;
 }
 
+div {
+  text-align: center;
+  padding: 8px;
+}
+
 header{
-  color: antiquewhite;
+  color: white;
   text-align: center;
 }
 
 section {
-  background: antiquewhite;
+  background: white;
   border-radius: 10px;
   padding: 15px;
   width: 500px;
@@ -19,7 +24,7 @@ section {
 }
 
 footer{
-  color: antiquewhite;
+  color: white;
   text-align: center;
   font-style: italic;
   margin-top: 20px;

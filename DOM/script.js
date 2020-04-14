@@ -49,22 +49,23 @@ function multar(){
 }
 
 //hora do dia
-function carregar (){
+function carregar(){
   var msg = document.getElementById('msg');
   var img = document.getElementById('imagem');
   var data = new Date();
-  var corpo = document.getElementById('corpo');
   hora = data.getHours();
   msg.innerHTML =  `Agora são ${hora} horas.`;
   if (hora >= 0 && hora <12) {
     //bom dia
     img.src='img/manha.png';
-    document.body.style.background: '#6b789e';
+    document.body.style.background = 'deepskyblue';
   } else if (hora >= 12 && hora < 18) {
     //boa tarde
     img.src='img/tarde.png';
+    document.body.style.background = '#e37514';
   } else {
     //boa noite
     img.src='img/noite.png';
+    document.body.style.background = '#090f2d';
   }
 }
