@@ -34,6 +34,7 @@ function saiu(){
   elemento.style.background = 'mediumspringgreen';
 }
 
+//Detran
 function multar(){
   var elemento  = document.getElementById('velocidade'); //recebendo a velocidade
   var aviso = document.getElementById('aviso'); //selecionando o texto de multa
@@ -46,3 +47,5 @@ function multar(){
     aviso.style.color = 'lightgreen';
   }
 }
+
+//hora do dia
