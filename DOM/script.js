@@ -53,7 +53,8 @@ function carregar(){
   var msg = document.getElementById('msg');
   var img = document.getElementById('imagem');
   var data = new Date();
-  hora = data.getHours();
+  //hora = data.getHours();
+  hora = 19;
   msg.innerHTML =  `Agora são ${hora} horas.`;
   if (hora >= 0 && hora <12) {
     //bom dia
